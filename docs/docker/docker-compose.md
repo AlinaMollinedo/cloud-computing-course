@@ -414,6 +414,24 @@ mkdir backend
 touch backend/server.js backend/package.json backend/Dockerfile docker-compose.yml
 ```
 
+**`backend/package.json`**:
+
+```json
+{
+  "name": "docker-node-mongodb",
+  "version": "1.0.0",
+  "description": "API Node.js con Express y MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+  }
+}
+```
+
 **`backend/server.js`** (API simple):
 
 ```javascript
