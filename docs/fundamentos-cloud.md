@@ -72,3 +72,9 @@ En cloud, el consumidor asume más o menos responsabilidad según el **nivel de 
 - **DBaaS**: Bases de datos gestionadas (RDS, Cloud SQL, Cosmos DB).
 
 En resumen: a mayor nivel de servicio (hacia SaaS), menos control sobre la infraestructura y menos tareas de administración; a menor nivel (hacia IaaS), más control y más responsabilidad de gestión.
+
+---
+
+## Siguiente: práctica en AWS
+
+Con estos fundamentos, el módulo **[AWS](./aws/conceptos-basicos.md)** aplica **EC2**, **RDS**, **DynamoDB**, **S3** y **Lambda**, más arquitectura event-driven como extra.

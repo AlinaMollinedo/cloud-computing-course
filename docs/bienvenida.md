@@ -20,12 +20,16 @@ Bienvenidos a la documentación del curso de **Computación en la Nube**. Aquí 
 - Redes
 - Volúmenes persistentes
 
-### Cloud
-- Servicios de cómputo cloud (EC2)
-- Almacenamiento (S3)
-- Serverless (Lambda)
-- Arquitectura event-driven
-- Casos de uso
+### Cloud (AWS)
+Material en el apartado **AWS**:
+- [Conceptos básicos](./aws/conceptos-basicos.md)
+- [EC2](./aws/ec2.md) — cómputo
+- [RDS](./aws/rds.md) — bases de datos relacionales
+- [DynamoDB](./aws/dynamodb.md) — NoSQL
+- [S3](./aws/s3.md) — almacenamiento
+- [Lambda](./aws/lambda.md) — serverless
+- [Arquitectura event-driven](./aws/arquitectura-event-driven.md) (extra)
+- [Workshops](./aws/workshops/carga-csv-s3-lambda-dynamodb.md)
 
 ### CI/CD
 - Conceptos CI/CD

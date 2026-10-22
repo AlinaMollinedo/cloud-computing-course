@@ -1,0 +1,8 @@
+{
+  "label": "AWS",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Amazon Web Services: EC2, RDS, DynamoDB, S3, Lambda, arquitectura event-driven (extra) y workshops."
+  }
+}
