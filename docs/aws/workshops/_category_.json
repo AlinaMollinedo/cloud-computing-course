@@ -1,0 +1,8 @@
+{
+  "label": "Workshops",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Laboratorios guiados en AWS. Cada workshop tiene etapas, comprobación y limpieza de recursos."
+  }
+}
