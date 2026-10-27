@@ -2,7 +2,7 @@ name: Hola Actions
 on:
   push:
     branches: [main]
-  pull-request:
+  pull_request:
     branches: [main]
   workflow_dispatch:
 permissions:
