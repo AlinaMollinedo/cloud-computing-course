@@ -1,5 +1,5 @@
 name: Hola Actions
-on: push
+on: [push]
 permissions:
   contents: read
 jobs:
@@ -10,7 +10,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: saludar
-        run: echo "Hola desde Github Actions"
+      - name: Saludar
+        run: echo "Hola, Alina Mollinedo"
       - name: Consultar versión
         run: node --version
