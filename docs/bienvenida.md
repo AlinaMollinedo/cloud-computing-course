@@ -31,13 +31,18 @@ Material en el apartado **AWS**:
 - [Arquitectura event-driven](./aws/arquitectura-event-driven.md) (extra)
 - [Workshops](./aws/workshops/carga-csv-s3-lambda-dynamodb.md)
 
-### CI/CD
-- Conceptos CI/CD
-- Pipeline stages
-- Herramientas: Jenkins, GitLab CI, GitHub Actions
-- Estructura de pipelines: stages, jobs, artefactos
-- Testing automatizado
-- Estrategias de deployment (blue-green, canary)
+### CI/CD con GitHub Actions
+
+- [Introducción a CI/CD](./cicd/introduccion.md)
+- [Conceptos de GitHub Actions](./cicd/conceptos-github-actions.md)
+- [Mi primer workflow](./cicd/primer-workflow.md)
+- [Eventos que activan workflows](./cicd/eventos.md)
+- [Dependencias y compilación](./cicd/dependencias-compilacion.md)
+- [Verificaciones y pruebas automáticas](./cicd/verificaciones-pruebas.md)
+- [Variables, secretos y permisos](./cicd/variables-secretos-permisos.md)
+- [Despliegue en GitHub Pages](./cicd/github-pages.md)
+- [Diagnóstico de workflows (opcional)](./cicd/diagnostico.md)
+- [Optimización y control (opcional)](./cicd/optimizacion-control.md)
 
 ### Kubernetes
 - Arquitectura K8s y componentes
