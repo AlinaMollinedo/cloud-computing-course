@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Bienvenidos al Curso
 
-Hola Rackie! <3
+Hola Rackie!
 
 Bienvenidos a la documentación del curso de **Computación en la Nube**. Aquí encontraras los materiales, guías y referencias para seguir el curso.
 
