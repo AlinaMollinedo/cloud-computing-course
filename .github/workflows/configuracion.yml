@@ -1,0 +1,24 @@
+name: Configuración
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    env:
+      AMBIENTE: practica
+    steps:
+      - name: Leer configuración
+        env:
+          CURSO: ${{ vars.NOMBRE_CURSO }}
+        run: echo "Curso=$CURSO; ambiente=$AMBIENTE"
+      - name: Comprobar secreto sin mostrarlo
+        env:
+          TOKEN_DEMO: ${{ secrets.TOKEN_DEMO }}
+        run: |
+          if [ -z "$TOKEN_DEMO" ]; then
+            echo "Falta TOKEN_DEMO"
+            exit 1
+          fi
+          echo "Secreto configurado"
