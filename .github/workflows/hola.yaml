@@ -1,0 +1,21 @@
+name: Hola Actions
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  saludar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Preparar Node.js 
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Saludar
+        run: echo "Hola, Alina Mollinedo"
+      - name: Consultar versión
+        run: node --version
